@@ -13,7 +13,8 @@
 .info-img {
   width: 100%;
 }
-.info .more-info {
+.info
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -39,10 +40,12 @@
   margin: 0;
   padding: 0px;
 }
-.task-item, .todo-title {
+.task-item,
+.todo-title {
   list-style: none;
 }
-.task-input,.task-button{
+.task-input,
+.task-button{
   outline: none;
 }
 .task-button{
