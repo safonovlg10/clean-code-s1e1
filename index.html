@@ -19,17 +19,17 @@
   </header>
   <main class="main">
     <section class="add-task" id="add-task_title">
-      <label for="new-task">Add Item</label>
+      <label for="new-task" class="task__lable">Add Item</label>
         <div class="add-task__wrapper">
           <input id="new-task" class="task__input" type="text">
           <button class="task__button">Add</button>
         </div>
     </section>
     <section class="task">
-      <h3 class="task__title">Todo</h3>
+      <h1 class="task__title">Todo</h1>
       <ul id="incomplete-tasks" class="task__list">
         <li class="task__item">
-          <input type="checkbox">
+          <input type="checkbox" class="task__input-checkbox">
           <label class="task__lable">Pay Bills</label>
           <input type="text" class="task__input">
           <button class="task__button task__button-edit">Edit</button>
@@ -38,7 +38,7 @@
           </button>
         </li>
         <li class="task__item edit-mode">
-          <input type="checkbox">
+          <input type="checkbox" class="task__input-checkbox">
           <label class="task task__lable">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task__input">
           <button class="task__button task__button-edit">Save</button>
@@ -49,10 +49,10 @@
       </ul>
     </section>
     <section>
-      <h3 class="task__title">Completed</h3>
+      <h2 class="task__title">Completed</h2>
       <ul id="completed-tasks" class="task__list">
         <li class="task__item">
-          <input type="checkbox" checked>
+          <input type="checkbox" class="task__input-checkbox" checked >
           <label class="task__lable">See the Doctor</label>
           <input type="text" class="task__input">
           <button class="task__button task__button-edit">Edit</button>
