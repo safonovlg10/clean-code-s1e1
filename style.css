@@ -71,6 +71,9 @@
   margin: 0;
   text-transform: uppercase;
 }
+.task__lable[for="new-task"]{
+  width: 100%;
+}
 .task__input[type="text"] {
   margin: 0;
   font-size: 18px;
