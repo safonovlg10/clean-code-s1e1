@@ -13,8 +13,7 @@
 .info__img {
   width: 100%;
 }
-.info
-.info__more {
+.info.info__more {
   font-family: fantasy, cursive;
 }
 
